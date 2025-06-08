@@ -1,4 +1,4 @@
-//Variable ***
+//Variable ******************
 #include <stdio.h>
 
 void main(){
@@ -11,6 +11,8 @@ void main(){
     quizScore = 15;
     totalScore = midtermScore + finalScore + quizScore;
     
+    //ตัวแปรห้ามเขียนใน "???" ให้เขียนหลัง
+    //ตัวแปร ให้ใข้ format code
     printf("Minterm score = %d \n", midtermScore);
     printf("final score = %d \n", finalScore);
     printf("quiz score = %d \n", quizScore);
