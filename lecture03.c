@@ -1,6 +1,6 @@
 //Preprocessor directives
 #include <stdio.h>
-#define DAT1 "Wow wow wow"
+#define DATA1 "Wow wow wow"
 
 //Global declaration
 int score = 20
