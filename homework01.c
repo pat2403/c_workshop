@@ -7,6 +7,9 @@ int main( ){
     char name[] = " ";
     float benefit ;
 
+    printf("----------------------------------\n");
+    printf("Program Benifit of loan\n");
+    printf("----------------------------------\n");
     printf("Enter name of loan : ");
     scanf("%s",&name);
     printf("Enter money of loan : ");
@@ -18,8 +21,8 @@ int main( ){
     }else {
         benefit = money * 0.055;
     }
-
+    printf("----------------------------------\n");
     printf("Benefit of loan is : %.2f\n",benefit);
-
+    printf("---------------------------------\n");
     return 0;
 }
